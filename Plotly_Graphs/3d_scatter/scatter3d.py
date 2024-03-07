@@ -11,8 +11,7 @@ z_eye = 0.5
 
 df = pd.read_csv('female_labour_cleaned.csv')
 df = df[df['Year'].isin(['2010'])]
-df = df[df['Continent'].isin(['Africa', 'Europe'])]
-
+df = df[df['Continent'].isin(['Africa', 'Europe'])
 # df = df[df['Year'].isin(['1990','1995','2000','2005','2010'])]
 df['resized_pop'] = df['population'] / 100000000  # use for size parameter
 
