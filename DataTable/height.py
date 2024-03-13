@@ -109,7 +109,7 @@ app.layout = dash_table.DataTable(
     # style_cell={'minWidth': 95, 'width': 95, 'maxWidth': 95}, #set width when using virtualization
     # style_table={'height': 300}     # default is 500px
 
-#----------------------------------------------------------------
+#--------------------------------------------------------------
 )
 
 if __name__ == '__main__':
